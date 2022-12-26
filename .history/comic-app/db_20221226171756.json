@@ -1,0 +1,16 @@
+{
+    "jokes": [
+      {
+        "id": 1,
+        "title": "Sample Joke 1",
+        "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
+        "description": "Sample description 1"
+      },
+      {
+        "id": 2,
+        "title": "Sample Joke 1",
+        "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
+        "description": "Sample description 1"
+      }
+    ]
+  }
