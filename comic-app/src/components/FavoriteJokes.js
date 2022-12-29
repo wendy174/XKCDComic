@@ -2,7 +2,7 @@ import React from "react";
 import FavoriteJoke from "./FavoriteJoke";
 
 function FavoriteJokes({ favorites }) {
-    const favoritesArray = favorites.map(favorite => <FavoriteJoke favorite={ favorite }/>)
+    const favoritesArray = favorites.map(favorite => <FavoriteJoke key={ favorite.id } favorite={ favorite }/>)
     return (
         <div className="col">
             { favoritesArray }
