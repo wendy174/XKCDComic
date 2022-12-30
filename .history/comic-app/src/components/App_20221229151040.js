@@ -48,12 +48,12 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <Route exact path="/">
-        <Hero title="xkcd comics" image={"https://logo.clearbit.com/xkcd.com"} description="xkcd is an old famous comic strip that has been around for years. We hope you enjoy these!"/>
+      <Route path="/">
+        <Hero title="xkcd jokes" description="xkcd is an old famous comic strip that has been around for years. We hope you enjoy these!"/>
         <Main jokes={ jokes }/>
       </Route>
       <Route path="/favorites">
-        <Hero title="favorites" image={"heart_icon.png"} description="These are all of your favorite xkcd jokes!"/>
+        <Hero title="favorites" description="These are all of your favorite xkcd jokes!"/>
         <Favorites favorites={ favorites }/>
       </Route>
     </div>
