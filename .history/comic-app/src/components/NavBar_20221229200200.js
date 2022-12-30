@@ -12,10 +12,10 @@ function NavBar() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <NavLink exact className="nav-link" aria-current="page" to="/">Home</NavLink>
+                            <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                         </li>
                         <li className="nav-item">
-                        <NavLink className="nav-link" to="/favorites">Favorites</NavLink>
+                        <Link className="nav-link" to="/favorites">Favorites</Link>
                         </li>
                     </ul>
                     <form className="d-flex" role="search">

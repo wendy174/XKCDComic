@@ -48,6 +48,7 @@ function App() {
   return (
     <div className="App">
       <NavBar />
+      
       <Route path="/favorites">
         <Hero title="favorites" image={"heart_icon.png"} description="These are all of your favorite xkcd jokes!"/>
         <Favorites favorites={ favorites }/>
