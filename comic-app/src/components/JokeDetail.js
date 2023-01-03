@@ -113,7 +113,7 @@ function JokeDetail() {
             <div className="container py-4">
                 <div className="row align-items-md-stretch">
                     <div className="p-5 text-bg-dark rounded-3">
-                        <img src={ joke.img } alt={ joke.transcript } />
+                        <img src={ joke.img } class='img-fluid' alt='Responsive image'/>
                         <br></br>
                         <br></br>
                         <p><b>Comic's Note:</b> { joke.alt }</p>
