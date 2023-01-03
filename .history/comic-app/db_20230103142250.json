@@ -12,6 +12,7 @@
       "img": "https://imgs.xkcd.com/comics/exploits_of_a_mom.png",
       "title": "Exploits of a Mom",
       "day": "10",
+<<<<<<< HEAD
       "favorited": true,
       "comments": [
         {
@@ -23,6 +24,9 @@
           "text": "Here is another comment"
         }
       ]
+=======
+      "favorited": false
+>>>>>>> f0154440c477dc588c6181ef62f75440825ae14d
     },
     {
       "month": "6",
@@ -36,6 +40,7 @@
       "img": "https://imgs.xkcd.com/comics/android_boyfriend.png",
       "title": "Android Boyfriend",
       "day": "22",
+<<<<<<< HEAD
       "favorited": false,
       "comments": [
         {
@@ -43,6 +48,9 @@
           "text": "Wow! What a great comic. Love it!"
         }
       ]
+=======
+      "favorited": false
+>>>>>>> f0154440c477dc588c6181ef62f75440825ae14d
     },
     {
       "month": "6",
@@ -55,9 +63,13 @@
       "alt": "Wait, no, that one also loses. How about a nice game of chess?",
       "img": "https://imgs.xkcd.com/comics/game_theory.png",
       "title": "Game Theory",
+<<<<<<< HEAD
       "day": "24",
       "favorited": true,
       "comments": []
+=======
+      "day": "24"
+>>>>>>> f0154440c477dc588c6181ef62f75440825ae14d
     },
     {
       "month": "6",
@@ -70,9 +82,13 @@
       "alt": "My favorite thing to do at parties is to talk judgmentally about people who aren't there.",
       "img": "https://imgs.xkcd.com/comics/overstimulated.png",
       "title": "Overstimulated",
+<<<<<<< HEAD
       "day": "26",
       "favorited": false,
       "comments": []
+=======
+      "day": "26"
+>>>>>>> f0154440c477dc588c6181ef62f75440825ae14d
     },
     {
       "month": "6",
@@ -85,9 +101,13 @@
       "alt": "People aren't going to change, for better or for worse. Technology's going to be so cool. All in all, the future will be okay! Except climate; we fucked that one up.",
       "img": "https://imgs.xkcd.com/comics/idiocracy.png",
       "title": "Idiocracy",
+<<<<<<< HEAD
       "day": "29",
       "favorited": false,
       "comments": []
+=======
+      "day": "29"
+>>>>>>> f0154440c477dc588c6181ef62f75440825ae14d
     },
     {
       "month": "7",
@@ -100,9 +120,13 @@
       "alt": "If this were SMBC, the alt-text drawing thingy would be a giraffe hooker fluttering her eyelashes.",
       "img": "https://imgs.xkcd.com/comics/qwertial_aphasia.png",
       "title": "Qwertial Aphasia",
+<<<<<<< HEAD
       "day": "1",
       "favorited": false,
       "comments": []
+=======
+      "day": "1"
+>>>>>>> f0154440c477dc588c6181ef62f75440825ae14d
     },
     {
       "month": "7",
@@ -115,9 +139,13 @@
       "alt": "By the third trimester, there will be hundreds of babies inside you.",
       "img": "https://imgs.xkcd.com/comics/extrapolating.png",
       "title": "Extrapolating",
+<<<<<<< HEAD
       "day": "3",
       "favorited": false,
       "comments": []
+=======
+      "day": "3"
+>>>>>>> f0154440c477dc588c6181ef62f75440825ae14d
     },
     {
       "month": "7",
@@ -130,9 +158,13 @@
       "alt": "I remember trying to log in to the original Command and Conquer servers a year or two back and feeling like I was knocking on the boarded-up gates of a ghost town. ",
       "img": "https://imgs.xkcd.com/comics/cutting_edge.png",
       "title": "Cutting Edge",
+<<<<<<< HEAD
       "day": "6",
       "favorited": false,
       "comments": []
+=======
+      "day": "6"
+>>>>>>> f0154440c477dc588c6181ef62f75440825ae14d
     },
     {
       "month": "7",
@@ -145,9 +177,13 @@
       "alt": "If only we'd chosen 1944-12-02 08:45:52 as the Unix epoch, we could've combined two doomsday scenarios into one and added a really boring scene to that Roland Emmerich movie.",
       "img": "https://imgs.xkcd.com/comics/2038.png",
       "title": "2038",
+<<<<<<< HEAD
       "day": "8",
       "favorited": false,
       "comments": []
+=======
+      "day": "8"
+>>>>>>> f0154440c477dc588c6181ef62f75440825ae14d
     },
     {
       "month": "7",
@@ -160,9 +196,13 @@
       "alt": "'This space intentionally left blank' is less immediately provocative but more Hofstadterially confusing.",
       "img": "https://imgs.xkcd.com/comics/form.png",
       "title": "Form",
+<<<<<<< HEAD
       "day": "10",
       "favorited": false,
       "comments": []
+=======
+      "day": "10"
+>>>>>>> f0154440c477dc588c6181ef62f75440825ae14d
     },
     {
       "month": "7",
@@ -175,9 +215,13 @@
       "alt": "Cracked.com is another inexplicable browser narcotic.  They could write a list of '17 worst haircuts in the Ottoman Empire' and I'd read through to the end, then click on all the links at the end.",
       "img": "https://imgs.xkcd.com/comics/tab_explosion.png",
       "title": "Tab Explosion",
+<<<<<<< HEAD
       "day": "13",
       "favorited": false,
       "comments": []
+=======
+      "day": "13"
+>>>>>>> f0154440c477dc588c6181ef62f75440825ae14d
     },
     {
       "month": "7",
@@ -190,9 +234,13 @@
       "alt": "Hey, what are the odds -- five Ayn Rand fans on the same train!  Must be going to a convention.",
       "img": "https://imgs.xkcd.com/comics/sheeple.png",
       "title": "Sheeple",
+<<<<<<< HEAD
       "day": "15",
       "favorited": false,
       "comments": []
+=======
+      "day": "15"
+>>>>>>> f0154440c477dc588c6181ef62f75440825ae14d
     },
     {
       "month": "7",
@@ -205,9 +253,13 @@
       "alt": "Hurricane forums are full of excited comments about central pressure and wind speed and comparisons to Camille and 1931 and 1938, with hastily-tacked-on notes about how it will be tragic if anyone dies and they hope it's a dud.",
       "img": "https://imgs.xkcd.com/comics/disaster_voyeurism.png",
       "title": "Disaster Voyeurism",
+<<<<<<< HEAD
       "day": "17",
       "favorited": false,
       "comments": []
+=======
+      "day": "17"
+>>>>>>> f0154440c477dc588c6181ef62f75440825ae14d
     },
     {
       "month": "7",
@@ -220,9 +272,13 @@
       "alt": "They could say \"the connection is probably lost,\" but it's more fun to do naive time-averaging to give you hope that if you wait around for 1,163 hours, it will finally finish.",
       "img": "https://imgs.xkcd.com/comics/estimation.png",
       "title": "Estimation",
+<<<<<<< HEAD
       "day": "20",
       "favorited": false,
       "comments": []
+=======
+      "day": "20"
+>>>>>>> f0154440c477dc588c6181ef62f75440825ae14d
     },
     {
       "month": "7",
@@ -235,9 +291,13 @@
       "alt": "I wanted us to try finding an approximate numeric solution, but noooo.",
       "img": "https://imgs.xkcd.com/comics/threesome.png",
       "title": "Threesome",
+<<<<<<< HEAD
       "day": "22",
       "favorited": false,
       "comments": []
+=======
+      "day": "22"
+>>>>>>> f0154440c477dc588c6181ef62f75440825ae14d
     },
     {
       "month": "7",
@@ -250,9 +310,13 @@
       "alt": "If you don't have an extension cord I can get that too.  Because we're friends!  Right?",
       "img": "https://imgs.xkcd.com/comics/woodpecker.png",
       "title": "Woodpecker",
+<<<<<<< HEAD
       "day": "24",
       "favorited": false,
       "comments": []
+=======
+      "day": "24"
+>>>>>>> f0154440c477dc588c6181ef62f75440825ae14d
     },
     {
       "month": "7",
@@ -265,9 +329,13 @@
       "alt": "Hobby: seeing how many menu selections you can get someone to go through before they realize you're not an automated system and/or hang up.",
       "img": "https://imgs.xkcd.com/comics/avoidance.png",
       "title": "Avoidance",
+<<<<<<< HEAD
       "day": "27",
       "favorited": false,
       "comments": []
+=======
+      "day": "27"
+>>>>>>> f0154440c477dc588c6181ef62f75440825ae14d
     },
     {
       "month": "7",
@@ -280,9 +348,13 @@
       "alt": "You should talk to the girl down the hall; I think you'd like her.  Lemme know if you find out why she's ordering all those colored plastic balls.",
       "img": "https://imgs.xkcd.com/comics/lease.png",
       "title": "Lease",
+<<<<<<< HEAD
       "day": "29",
       "favorited": false,
       "comments": []
+=======
+      "day": "29"
+>>>>>>> f0154440c477dc588c6181ef62f75440825ae14d
     },
     {
       "month": "7",
@@ -295,9 +367,13 @@
       "alt": "My biology grad student friends tell me that different types of alcohol don't actually have different effects. I trust their expertise, not because of the 'biology' part, but because of the 'grad student'.",
       "img": "https://imgs.xkcd.com/comics/understocked.png",
       "title": "Understocked",
+<<<<<<< HEAD
       "day": "31",
       "favorited": false,
       "comments": []
+=======
+      "day": "31"
+>>>>>>> f0154440c477dc588c6181ef62f75440825ae14d
     },
     {
       "month": "8",
@@ -309,9 +385,13 @@
       "transcript": "[[The panel appears like a news report.]]\n[[There is a picture of a rocket, captioned 'Breaking news']]\nNews-anchor: Astronomers have confirmed that the asteroid is headed for Earth.\n\nNews-anchor: NASA has launched a heroic mission to land a rover on the asteroid, drill into it, and destroy it with nuclear bombs.\n[[The picture of the rocket fills the panel.  In an inset picture is the rover.]]\n\n[[A woman is sitting at an interface. A man stands next to it.  Both are wearing headsets with microphones.]]\nWoman with headset: The robot has landed successfully and planted the nukes! We're saved!\nMan with headset: Hooray!\nVoice: We're heroes!\n\n[[Digital countdown.]]\n0:05...\n0:04...\n0:03...\n[[The Little Prince is looking at the NASA rover, which has drilled into the asteroid.  Beside him is the rose, and a small volcano.]]\n\n{{Title text: My Deep Impact\nLittle Prince crossover fanfic has been poorly received by the community.}}",
       "alt": "My Deep Impact/Little Prince crossover fanfic has been poorly received by the community.",
       "img": "https://imgs.xkcd.com/comics/asteroid.png",
+<<<<<<< HEAD
       "title": "Asteroid",
       "favorited": false,
       "comments": []
+=======
+      "title": "Asteroid"
+>>>>>>> f0154440c477dc588c6181ef62f75440825ae14d
     },
     {
       "month": "8",
@@ -324,9 +404,13 @@
       "alt": "I hear many of you finally have smooth Flash support, but me and my Intel card are still waiting on a kernel patch somewhere in the pipeline before we can watch Jon Stewart smoothly.",
       "img": "https://imgs.xkcd.com/comics/supported_features.png",
       "title": "Supported Features",
+<<<<<<< HEAD
       "day": "5",
       "favorited": false,
       "comments": []
+=======
+      "day": "5"
+>>>>>>> f0154440c477dc588c6181ef62f75440825ae14d
     },
     {
       "month": "8",
@@ -339,9 +423,27 @@
       "alt": "Please do not try any of this and die or get arrested.",
       "img": "https://imgs.xkcd.com/comics/wings.png",
       "title": "Wings",
+<<<<<<< HEAD
       "day": "7",
       "favorited": false,
       "comments": []
+=======
+      "day": "7"
+    },
+    {
+      "title": "Example post ",
+      "img": "https://www.thelancet.com/cms/attachment/c6afa052-aa7d-4eb6-a340-04fdb1747f6d/gr1_lrg.jpg",
+      "alt": "post ",
+      "id": 621
+    }
+  ],
+  "favorites": [
+    {
+      "id": 1,
+      "title": "Sample Joke 1",
+      "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
+      "description": "Sample description 1"
+>>>>>>> f0154440c477dc588c6181ef62f75440825ae14d
     }
   ]
 }
