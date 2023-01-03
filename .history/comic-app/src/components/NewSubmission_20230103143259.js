@@ -4,14 +4,13 @@ import React, { useEffect, useState } from 'react';
 
 function NewSubmission({handleNewComic}) { 
     
-const [title, setTitle] = useState('');
-const [image, setImage] = useState('');
-const [comment, setComment] = useState('');
-
+const [title, setTitle] = useState('')
+const [image, setImage] = useState('')
+const [comment, setComment] = useState('')
+const [publishedDate, setPublishedDate] = useState('unknown')
 
 function handleSubmit(e) { 
     e.preventDefault() 
-    
     let newComic = { 
         title: title, 
         img: image, 

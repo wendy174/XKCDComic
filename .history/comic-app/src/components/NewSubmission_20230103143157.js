@@ -4,28 +4,29 @@ import React, { useEffect, useState } from 'react';
 
 function NewSubmission({handleNewComic}) { 
     
-const [title, setTitle] = useState('');
-const [image, setImage] = useState('');
-const [comment, setComment] = useState('');
-
+const [title, setTitle] = useState('')
+const [image, setImage] = useState('')
+const [comment, setComment] = useState('')
+const [publishedDate, setPublishedDate] = useState('unknown')
 
 function handleSubmit(e) { 
     e.preventDefault() 
-    
     let newComic = { 
         title: title, 
         img: image, 
         alt: comment,
-        month: "",
-        link: "",
-        year: "",
-        news: "",
-        safe_title: title,
-        transcript: comment,
-        alt: comment,
-        day: "",
-        favorited: false,
-        comments: []
+        "month": "",
+        "link": "",
+        "year": "",
+        "news": "",
+        "safe_title": title,
+        "transcript": comment,
+        "alt": comment,
+        "img": "https://imgs.xkcd.com/comics/exploits_of_a_mom.png",
+        "title": "Exploits of a Mom",
+        "day": "10",
+        "favorited": true,
+        "comments":
     }
 
     fetch(`http://localhost:3001/jokes`, {

@@ -13,16 +13,7 @@
       "title": "Exploits of a Mom",
       "day": "10",
       "favorited": true,
-      "comments": [
-        {
-          "id": 1,
-          "text": "this is a fake comment"
-        },
-        {
-          "id": 2,
-          "text": "Here is another comment"
-        }
-      ]
+      "comments": []
     },
     {
       "month": "6",

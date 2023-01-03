@@ -38,7 +38,7 @@ function Joke({ joke, favoriteJoke, unfavoriteJoke }) {
             <div className="p-5 text-bg-dark rounded-3">
                 <h2>{ joke.title }</h2>
                 {/* <p>Published: {joke.month}/{joke.day}/{joke.year}</p> */}
-                <img src={ joke.img } className='img-fluid' alt='Responsive image'/>
+                <img src={ joke.img } classNae='img-fluid' alt='Responsive image'/>
                 <br></br>
                 <br></br>
                 <p><b>Comic's Note:</b> { joke.alt }</p>

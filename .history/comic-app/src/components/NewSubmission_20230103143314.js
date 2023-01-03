@@ -11,7 +11,6 @@ const [comment, setComment] = useState('');
 
 function handleSubmit(e) { 
     e.preventDefault() 
-    
     let newComic = { 
         title: title, 
         img: image, 
