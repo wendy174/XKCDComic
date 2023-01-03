@@ -13,7 +13,20 @@
       "title": "Exploits of a Mom",
       "day": "10",
       "favorited": true,
-      "comments": []
+      "comments": [
+        {
+          "id": 1,
+          "text": "This is so funny! "
+        },
+        {
+          "id": 2,
+          "text": "Wow! Thanks for sharing."
+        },
+        {
+          "id": 3,
+          "text": "Hahahaha"
+        }
+      ]
     },
     {
       "month": "6",
