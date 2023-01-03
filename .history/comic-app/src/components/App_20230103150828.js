@@ -70,7 +70,7 @@ function App() {
     <div className="App">
       <NavBar />
       <Route path="/new">
-        <Hero title="add new comic" image={"heart_icon.png"} description="Submit your new comic here!"/>
+        <Hero title="favorites" image={"heart_icon.png"} description="These are all of your favorite xkcd jokes!"/>
         <NewSubmission handleNewComic={handleNewComic} />
       </Route>
       <Route path="/favorites">

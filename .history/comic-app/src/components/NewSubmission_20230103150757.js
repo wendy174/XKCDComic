@@ -55,26 +55,26 @@ function handleSubmit(e) {
         <div className="container py-4">
             <div className="row align-items-md-stretch">
                 <div className="p-5 text-bg-dark rounded-3">
-                    <form onSubmit={handleSubmit}>
-                        <div className="form-group">
-                            <label for="title">Title</label>
-                            <input type="text" className="form-control" id="title-Input" value={title} onChange={(e) => setTitle(e.target.value)} />
-                        </div>
-                        <div className="form-group">
-                            <label for="url">Image</label>
-                            <input type="text" className="form-control" id="image" value={image} onChange={(e) => setImage(e.target.value)} />
-                        </div>
-                        {/* <div className="form-group">
-                            <label for="date-published">Published Date</label>
-                            <input type="text" className="form-control" id="date-published" placeholder='Example:01/01/2023'/>
-                        </div> */}
-                        <div className="form-group">
-                            <label for="comments">Comic's Note</label>
-                            <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" value={comment} onChange={(e) => setComment(e.target.value)}></textarea>
-                        </div>
-                        <br></br>
-                        <button type="submit" className="btn btn-primary">Submit</button>
-                    </form> 
+                <form onSubmit={handleSubmit}>
+                    <div className="form-group">
+                        <label for="title">Title</label>
+                        <input type="text" className="form-control" id="title-Input" value={title} onChange={(e) => setTitle(e.target.value)} />
+                    </div>
+                    <div className="form-group">
+                        <label for="url">Image</label>
+                        <input type="text" className="form-control" id="image" value={image} onChange={(e) => setImage(e.target.value)} />
+                    </div>
+                    {/* <div className="form-group">
+                        <label for="date-published">Published Date</label>
+                        <input type="text" className="form-control" id="date-published" placeholder='Example:01/01/2023'/>
+                    </div> */}
+                    <div className="form-group">
+                        <label for="comments">Comic's Note</label>
+                        <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" value={comment} onChange={(e) => setComment(e.target.value)}></textarea>
+                    </div>
+                    <br></br>
+                    <button type="submit" className="btn btn-primary">Submit</button>
+                </form> 
                 </div>
             </div>
         </div>

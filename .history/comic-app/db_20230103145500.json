@@ -333,21 +333,6 @@
       "day": "7",
       "favorited": false,
       "comments": []
-    },
-    {
-      "title": "Hydrogen Isotopes",
-      "img": "https://imgs.xkcd.com/comics/hydrogen_isotopes.png",
-      "alt": "Great!",
-      "month": "1",
-      "link": "",
-      "year": "2023",
-      "news": "",
-      "safe_title": "Hydrogen Isotopes",
-      "transcript": "Great!",
-      "day": "3",
-      "favorited": false,
-      "comments": [],
-      "id": 621
     }
   ]
 }
