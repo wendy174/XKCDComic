@@ -5,6 +5,7 @@ import Hero from './Hero';
 import Main from './Main';
 import Favorites from "./Favorites";
 import JokeDetail from "./JokeDetail";
+import NewSubmission from "./NewSubmission";
 
 function App() {
   const baseURL = "http://localhost:3001/jokes";
@@ -15,15 +16,15 @@ function App() {
   useEffect(() => {
     const configObj = {
       method: 'GET',  
-      withCredentials: true,  
-      crossorigin: true,  
-      mode: 'no-cors',
       headers: {
-       "Access-Control-Allow-Origin" : "http://localhost:3001"
-      }
+        "Access-Control-Allow-Origin": "*"
+       },
+       withCredentials: true,  
+       crossorigin: true,  
+       mode: 'no-cors',
    };
 
-    fetch("https://xkcd.com/614/info.0.json")
+    fetch("https://xkcd.com/614/info.0.json", configObj)
     .then(resp => resp.json())
     .then(jokes => console.log(jokes))
     .catch(e => console.log(e));
@@ -64,6 +65,9 @@ function App() {
   return (
     <div className="App">
       <NavBar />
+      <Route path="/new">
+        <NewSubmission />
+      </Route>
       <Route path="/favorites">
         <Hero title="favorites" image={"heart_icon.png"} description="These are all of your favorite xkcd jokes!"/>
         <Favorites favorites={ favorites } unfavoriteJoke={ unfavoriteJoke }/>

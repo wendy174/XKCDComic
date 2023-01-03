@@ -17,6 +17,9 @@ function NavBar() {
                         <li className="nav-item">
                         <NavLink className="nav-link" to="/favorites">Favorites</NavLink>
                         </li>
+                        <li className="nav-item">
+                        <NavLink className="nav-link" to="/new">Add New Comic</NavLink>
+                        </li>
                     </ul>
                     <form className="d-flex" role="search">
                         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
