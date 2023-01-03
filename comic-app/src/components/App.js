@@ -62,11 +62,15 @@ function App() {
     setFavorites(newFavorites);
   }
 
+  function handleNewComic(newComic) { 
+    setJokes([...jokes, newComic])
+  }
+
   return (
     <div className="App">
       <NavBar />
       <Route path="/new">
-        <NewSubmission />
+        <NewSubmission handleNewComic={handleNewComic} />
       </Route>
       <Route path="/favorites">
         <Hero title="favorites" image={"heart_icon.png"} description="These are all of your favorite xkcd jokes!"/>
