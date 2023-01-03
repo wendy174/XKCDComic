@@ -37,6 +37,7 @@ function Joke({ joke, favoriteJoke, unfavoriteJoke }) {
         <>
             <div className="p-5 text-bg-dark rounded-3">
                 <h2>{ joke.title }</h2>
+                {/* <p>Published: {joke.month}/{joke.day}/{joke.year}</p> */}
                 <img src={ joke.img } className='img-fluid' alt={ joke.transcript }/>
                 <br></br>
                 <br></br>
