@@ -11,22 +11,25 @@ function App() {
   const [jokes, setJokes] = useState([]);
   const [favorites, setFavorites] = useState([]);
 
-  /*
+/*
   useEffect(() => {
-    fetch("https://xkcd.com/614/info.0.json", {
-       method: 'GET',  
-       withCredentials: true,  
-       crossorigin: true,  
-       mode: 'no-cors',
-       headers: {
-        "Access-Control-Allow-Origin" : "http://localhost:3000"
-       }
-    })
+    const configObj = {
+      method: 'GET',  
+      withCredentials: true,  
+      crossorigin: true,  
+      mode: 'no-cors',
+      headers: {
+       "Access-Control-Allow-Origin" : "http://localhost:3001"
+      }
+   };
+
+    fetch("https://xkcd.com/614/info.0.json")
     .then(resp => resp.json())
     .then(jokes => console.log(jokes))
     .catch(e => console.log(e));
   }, []);
   */
+  
 
   // Fetch comics for home page
   useEffect(() => {
