@@ -45,7 +45,7 @@ function Joke({ joke, favoriteJoke, unfavoriteJoke }) {
                 <div className="gap-2 d-sm-flex">
                     {isFavorited ? <button className="btn btn-warning" type="button" onClick={ clickHandler }>Unfavorite</button> : <button className="btn btn-danger" type="button" onClick={ clickHandler }>Favorite</button>}
                     <Link className="btn btn-primary" type="button" to={`/comics/${joke.id}`}>See Details</Link>
-                    <Link type="button" className="btn btn-info" to={`/comics/${joke.id}`}> Comments <span class="badge text-bg-dark">{ joke.comments.length }</span> </Link>
+                    <Link type="button" className="btn btn-info" to={`/comics/${joke.id}`}> Comments <span className="badge text-bg-dark">{ joke.comments.length }</span> </Link>
                 </div>
             </div>
             <br></br>

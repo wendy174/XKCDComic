@@ -1,39 +1,19 @@
 import React, { useState } from 'react';
-import { useHistory } from 'react-router-dom';
 
 
-function NewSubmission({ handleNewComic }) { 
+
+function NewSubmission({handleNewComic}) { 
     
-const [title, setTitle] = useState('');
-const [image, setImage] = useState('');
-const [comment, setComment] = useState('');
+const [title, setTitle] = useState('')
+const [image, setImage] = useState('')
+const [comment, setComment] = useState('')
 
-const history = useHistory();
-
-// Submit new comic handler
 function handleSubmit(e) { 
-    e.preventDefault();
-
-    const newDate = new Date();
-    const currentDate = newDate.getDate().toString();
-    const month = newDate.getMonth() + 1;
-    const currentMonth = month.toString();
-    const currentYear = newDate.getFullYear().toString();
-    
-    const newComic = { 
+    e.preventDefault() 
+    let newComic = { 
         title: title, 
         img: image, 
-        alt: comment,
-        month: currentMonth,
-        link: "",
-        year: currentYear,
-        news: "",
-        safe_title: title,
-        transcript: comment,
-        alt: comment,
-        day: currentDate,
-        favorited: false,
-        comments: []
+        alt: comment 
     }
 
     fetch(`http://localhost:3001/jokes`, {
@@ -43,38 +23,29 @@ function handleSubmit(e) {
       },
       body: JSON.stringify(newComic),
     })
-    .then(resp => resp.json())
-    .then(data => {
-        handleNewComic(data);
-        // Route back to detail page
-        history.push(`/comics/${data.id}`);
-    });
+      .then(resp => resp.json())
+      .then(data => {
+        handleNewComic(data)});
   
 }
+
     return ( 
-        <div className="container py-4">
-            <div className="row align-items-md-stretch">
-                <div className="p-5 text-bg-dark rounded-3">
-                    <form onSubmit={handleSubmit}>
-                        <div className="form-group">
-                            <label for="title">Title</label>
-                            <input type="text" className="form-control" id="title-Input" value={title} onChange={(e) => setTitle(e.target.value)} />
-                        </div>
-                        <div className="form-group">
-                            <label for="url">Image</label>
-                            <input type="text" className="form-control" id="image" value={image} onChange={(e) => setImage(e.target.value)} />
-                        </div>
-                        <div className="form-group">
-                            <label for="comments">Comic's Note</label>
-                            <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" value={comment} onChange={(e) => setComment(e.target.value)}></textarea>
-                        </div>
-                        <br></br>
-                        <button type="submit" className="btn btn-primary">Submit</button>
-                    </form> 
-                </div>
+        <form onSubmit={handleSubmit}>
+            <div className="form-group">
+                <label for="title">Title</label>
+                <input type="text" className="form-control" id="title-Input" value={title} onChange={(e) => setTitle(e.target.value)} />
             </div>
-        </div>
-    )   
+            <div className="form-group">
+                <label for="url">Image</label>
+                <input type="text" className="form-control" id="image" value={image} onChange={(e) => setImage(e.target.value)} />
+            </div>
+            <div className="form-group">
+                <label for="comic-note">Comic Note's</label>
+                <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" value={comment} onChange={(e) => setComment(e.target.value)}></textarea>
+            </div>
+            <button type="submit" className="btn btn-primary">Submit</button>
+        </form> 
+    )
 }
 
-export default NewSubmission;
+export default NewSubmission
