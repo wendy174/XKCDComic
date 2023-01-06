@@ -27,7 +27,7 @@ function Joke({ joke, favoriteJoke, unfavoriteJoke }) {
                 unfavoriteJoke(joke.id);
                 setIsFavorited(false);
             } else {
-                favoriteJoke(joke);
+                favoriteJoke(joke.id);
                 setIsFavorited(true);
             } 
         })

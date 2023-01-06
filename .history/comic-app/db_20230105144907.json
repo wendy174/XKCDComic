@@ -90,7 +90,7 @@
       "img": "https://imgs.xkcd.com/comics/idiocracy.png",
       "title": "Idiocracy",
       "day": "29",
-      "favorited": true,
+      "favorited": false,
       "comments": []
     },
     {
@@ -361,6 +361,21 @@
       "favorited": false,
       "comments": [],
       "id": 621
+    },
+    {
+      "title": "Hydrogen Isotopes",
+      "img": "https://imgs.xkcd.com/comics/hydrogen_isotopes.png",
+      "alt": "What did I mean here? ",
+      "month": "1",
+      "link": "",
+      "year": "2023",
+      "news": "",
+      "safe_title": "Hydrogen Isotopes",
+      "transcript": "What did I mean here? ",
+      "day": "5",
+      "favorited": false,
+      "comments": [],
+      "id": 622
     }
   ]
 }
