@@ -110,7 +110,7 @@ function JokeDetail() {
                             Comments
                         </button>
                     </h2>
-                    <div id="collapseOne" className="accordion-collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                         <div className="accordion-body">
                             { comments.length > 0 ? comments : <p>Be the first to comment!</p> }
                         </div>

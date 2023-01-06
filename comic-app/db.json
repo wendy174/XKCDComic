@@ -12,7 +12,7 @@
       "img": "https://imgs.xkcd.com/comics/exploits_of_a_mom.png",
       "title": "Exploits of a Mom",
       "day": "10",
-      "favorited": true,
+      "favorited": false,
       "comments": [
         {
           "id": 1,
@@ -90,7 +90,7 @@
       "img": "https://imgs.xkcd.com/comics/idiocracy.png",
       "title": "Idiocracy",
       "day": "29",
-      "favorited": true,
+      "favorited": false,
       "comments": []
     },
     {

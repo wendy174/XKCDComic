@@ -18,7 +18,7 @@ function App() {
     .then(resp => resp.json())
     .then(jokes => setJokes(jokes))
     .catch(e => console.log(e));
-  }, []);
+  }, [favorites]);
 
   // Fetch favorites for favorite page
   useEffect(() => {
