@@ -6,7 +6,7 @@ Front end application that enables users to explore a diverse collection of 20+ 
 ![XKCD Comics](comic.png) 
 
 ### Loom video of XKCD Comics: 
-https://www.loom.com/share/debd95da51da4ee3ae627a924cccfe6a
+https://www.loom.com/share/02d2f635d6a949acb0fd7417345c3502
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
